@@ -1,0 +1,100 @@
+:root {
+  --main-colour: #a681f5;
+  --second-colour: #48484a;
+  --background: rgb(242, 251, 253);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  text-align: center;
+  color: var(--second-colour);
+  font-size: 25px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+#aboutme {
+  background-color: var(--main-colour);
+  text-align: center;
+  padding: 15px 23px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: var(--background);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+}
+
+#contactme {
+  border: 1px solid var(--main-colour);
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  color: var(--main-colour);
+  text-decoration: none;
+}
+.primary-link {
+  background-color: var(--main-colour);
+  text-align: center;
+  padding: 15px 23px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: var(--background);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+}
+
+.homepage {
+  color: var(--main-colour);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.email {
+  color: var(--main-colour);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
